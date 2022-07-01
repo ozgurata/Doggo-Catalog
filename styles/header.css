@@ -1,0 +1,13 @@
+.doggo-catalog-header{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 50px 10px;
+    height: 200px;
+    vertical-align: center;
+    text-align: center;
+}
+
+.doggo-catalog-header-text{
+    display: flex;
+    justify-content: center;
+}
