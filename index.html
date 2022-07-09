@@ -8,6 +8,7 @@
     <link href="./styles/general.css" rel="stylesheet">
     <link href="./styles/header.css" rel="stylesheet">
     <link href="./styles/navigation.css" rel="stylesheet">
+    <script src="./scripts/search.js" async></script>
     <title>Doggo Catalog</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
         </div>
     </header>
     <main class="doggo-catalog-container">
-        <form>
+        <form id="searchForm">
             <div class="doggo-search-bar">
                 <input class="search-bar" type="text" name="breed-type" placeholder="Search A Dog Breed"/>
                 <button class="search-button">Search</button>
@@ -57,37 +58,37 @@
                         <a href="./pages/golden-retriever.html" class="btn btn-dark">Learn More</a>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-img-container">
-                        <img src="./doggo-images/german-shepherd-main.jpg" class="card-img-top" alt="alaskan-husky">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">German Shepherd</h5>
-                        <p class="card-text">The German Shepherd is very good for being a watchdog and hence it do not welcome guests to home. But when trained from a puppy it will suit itself for making new...</p>
-                        <a href="./pages/german-shepherd.html" class="btn btn-dark">Learn More</a>
-                    </div>
+            <div class="card">
+                <div class="card-img-container">
+                    <img src="./doggo-images/german-shepherd-main.jpg" class="card-img-top" alt="german-shepherd">
                 </div>
-                <div class="card">
-                    <div class="card-img-container">
-                        <img src="./doggo-images/saint-bernard-main.jpg" class="card-img-top" id="bernard" alt="alaskan-husky">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Saint Bernard</h5>
-                        <p class="card-text">Today&#39;s Saint Bernard is not a large dog, he is a giant dog. Weighing in at 140-200 pounds and standing 28 to 35 inches tall, he is a lot of dog. Bred with mastiffs...</p>
-                        <a href="./pages/saint-bernard.html" class="btn btn-dark">Learn More</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-container">
-                        <img src="./doggo-images/pug-main.jpg" class="card-img-top" alt="alaskan-husky">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Pug</h5>
-                        <p class="card-text">Pugs are small dogs standing at roughly 25cm and 36cm in height and weighing between 6 and 8.5kg. They are categorized as a toy breed. The head is large in size compared...</p>
-                        <a href="./pages/pug.html" class="btn btn-dark">Learn More</a>
-                    </div>
+                <div class="card-body">
+                    <h5 class="card-title">German Shepherd</h5>
+                    <p class="card-text">The German Shepherd is very good for being a watchdog and hence it do not welcome guests to home. But when trained from a puppy it will suit itself for making new...</p>
+                    <a href="./pages/german-shepherd.html" class="btn btn-dark">Learn More</a>
                 </div>
             </div>
-        </main>
-    </body>
-    </html>
+            <div class="card">
+                <div class="card-img-container">
+                    <img src="./doggo-images/saint-bernard-main.jpg" class="card-img-top" id="bernard" alt="saint-bernard">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Saint Bernard</h5>
+                    <p class="card-text">Today&#39;s Saint Bernard is not a large dog, he is a giant dog. Weighing in at 140-200 pounds and standing 28 to 35 inches tall, he is a lot of dog. Bred with mastiffs...</p>
+                    <a href="./pages/saint-bernard.html" class="btn btn-dark">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img-container">
+                    <img src="./doggo-images/pug-main.jpg" class="card-img-top" alt="pug">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pug</h5>
+                    <p class="card-text">Pugs are small dogs standing at roughly 25cm and 36cm in height and weighing between 6 and 8.5kg. They are categorized as a toy breed. The head is large in size compared...</p>
+                    <a href="./pages/pug.html" class="btn btn-dark">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
